@@ -110,12 +110,12 @@ h1{
 	margin-right: 8vw;
 	}
 
-#tagline #free{
+ #free{
 	list-style: none;
 	padding-left: 0;
 }
 
-#tagline #free li{
+ #free li{
 	margin: 1vw;
 	font-size: 1.5vw;
 }
@@ -139,11 +139,34 @@ h2{
 }
 
 .colors{
-	height:38vw;
+	padding: 0;
+	padding-top: 5vw;
+	height: 38vw;
+	background-color: white;
 	border-style: solid;
 	border-left: none;
 	border-right: none;
 	border-bottom: none;
+}
+
+.colors img{
+	vertical-align: bottom;
+	position: relative;
+	height:38vw;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: -99px;
+}
+
+.colors div{
+	position: relative;
+	font-family: "Helvetica", "Verdana";
+}
+
+.colors span{
+	width:5vw;
+	position: relative;
 }
 
 #pink{
