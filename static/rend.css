@@ -34,8 +34,8 @@ h1{
 	height: 100%;
 }
 #banner{
-	height:1000px;
 	padding:10px;
+	height: 1000px;
 	width: 100%;
 	background: 
     linear-gradient(
@@ -43,6 +43,7 @@ h1{
       rgba(30, 123, 173, 0.25) 
     ),
     url('http://georgespiliopoulos.me/wp-content/uploads/2014/01/clean-white-polygon-backgrounds-10.jpg');
+   	background-size: 100%
 }
 
 .classname {
@@ -71,7 +72,7 @@ h1{
 	font-style:normal;
 	height:65px;
 	line-height:65px;
-	width:300px;
+	width:400px;
 	text-decoration:none;
 	text-align:center;
 }
@@ -92,7 +93,7 @@ h1{
 }
 
 #banner img{
-	margin-top: 90px;
+	margin-top: 100px;
 	margin-right: auto;
 	margin-left: auto;
 	height: 400px;
@@ -105,10 +106,13 @@ h1{
 	margin-top: 0;
 }
 
-#tagline{
-	display: block;
-	height: 500px;
-	background-color: #708090;
+#tagline {
+	height: 700px;
+}
+
+#tagline img{
+	margin-left: 0;
+	position: absolute;
 }
 
 #vid{
@@ -117,4 +121,5 @@ h1{
 	width: auto; height: auto; z-index: -100;
 	margin-top: none;
 	background-size: cover;
+
 }
