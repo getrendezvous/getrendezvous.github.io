@@ -38,6 +38,7 @@ h1{
 	margin:0;
 }
 #banner{
+	padding-bottom: 1vw;
 	margin-top:6vw;
 	height: vh;
 	width: 100%;
@@ -138,24 +139,31 @@ h2{
 }
 
 .colors{
-	height: 700px;
+	height:38vw;
+	border-style: solid;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
 }
 
 #pink{
-	height: 700px;
-	background-color: #F08080;
+	border-top-width: 5vw;
+	border-top-color: #F08080;
 }
 
 #blue{
-	background-color: #00BFFF;
+	border-top-width: 5vw;
+	border-color: #00BFFF;
 }
 
 #orange{
-	background-color: #FF8C00;
+	border-top-width: 5vw;
+	border-color: #FF8C00;
 }
 
 #green{
-	background-color: #01DF74;
+	border-top-width: 5vw;
+	border-color: #01DF74;
 
 }
 
