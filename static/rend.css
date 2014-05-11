@@ -78,7 +78,6 @@ h1{
 #banner h1{
 	text-align: center;
 	margin-top: 0;
-	margin-bottom: 50px;
 }
 
 #tagline {
@@ -90,6 +89,7 @@ h1{
 
 #tagline div{
 	position: relative;
+	font-family: "Helvetica", "Verdana";
 }
 
 #tagline img{
@@ -97,17 +97,33 @@ h1{
 	position: relative;
 	height:38vw;
 	float: left;
-	left:5vw;
+	left:10vw;
 	margin-left: 0;
 	z-index: -99px;
 }
 
 #tagline span{
+	width:50vw;
 	position: relative;
-	font-size:4vw;
 	float: right;
-	margin-right: 14vw
+	margin-right: 8vw;
 	}
+
+#tagline #free{
+	list-style: none;
+	padding-left: 0;
+}
+
+#tagline #free li{
+	margin: 1vw;
+	font-size: 1.5vw;
+}
+
+h2{
+	margin:0;
+	font-size:7vw;
+	font-weight: 100;
+}
 
 #vid{
 	position:absolute;
@@ -121,6 +137,34 @@ h1{
 	background-size: cover;
 }
 
-#promo{
+.colors{
 	height: 700px;
-	background-color: red;
+}
+
+#pink{
+	height: 700px;
+	background-color: #F08080;
+}
+
+#blue{
+	background-color: #00BFFF;
+}
+
+#orange{
+	background-color: #FF8C00;
+}
+
+#green{
+	background-color: #01DF74;
+
+}
+
+#footer{
+	clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
+    background-color: black;
+
+}
