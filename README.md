@@ -1,4 +1,4 @@
-getrendezvous.co
+getrendezvous.com
 ================
 
 Our website!
