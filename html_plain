@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Rendezvous</title>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="banner">
+				<img id="logo" src="resources/iconfinal.png">
+					<ul>
+						<li><a href="http://tflig.ht/1iD8s2g"><img src="resources/android.png"></a></li>
+						<li><a href="http://tflig.ht/1iD8s2g"><img src="resources/app-store.png"></a></li>
+					</ul>
+				<h1>Rendezvous</h1>
+			</div>
+			<div>
+				<video autoplay="autoplay" id="vid" loop muted> 
+				<source src="resources/MVI_6356.MOV">
+				</video>
+			</div>
+			<div id="tagline">
+				<div data-200-top="top:0%; -webkit-opacity:1;" data-0="top:70%; -webkit-opacity:0;">
+					<img src="resources/iphone_free_final.png">
+					<span>
+					<h2>Who's free?</h2>
+					<ul id="free">
+						<li>Rendezvous is a Social App for meeting up with friends.</li>
+						<li>Log on to find out which of your nearby friends are free.</li>
+						<li>Receive suggestions of places to eat, hang out, study, etc.</li>
+					</ul>
+					</span>
+				</div>
+			</div>
+			<div id="footer">
+				<span>&copy; Rendezvous</span>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="skrollr.min.js"></script>
+		<script type="text/javascript">
+	    skrollr.init({
+
+		});
+	    </script>
+	</body>
+</html> 
